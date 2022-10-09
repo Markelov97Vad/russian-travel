@@ -1,0 +1,14 @@
+.place__paragraph {
+    font-family: 'Inter', "Arial ", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    /* or 29px */
+    margin: 0;
+    
+    color: #FFFFFF;
+}
+.card__paragraph:nth-of-type(even) {
+    margin-top: 26px;
+}

@@ -1,0 +1,13 @@
+.place__url {
+    font-family: 'Inter', "Arial ", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0;
+/* identical to box height, or 100% */
+
+    letter-spacing: 2px;
+
+    color: #AAAAAA;
+}

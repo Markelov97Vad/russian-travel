@@ -1,0 +1,7 @@
+.place__info {
+    grid-area: link;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
