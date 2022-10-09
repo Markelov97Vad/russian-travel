@@ -1,7 +1,9 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     box-sizing: border-box;
-    border: 1px solid red;
     padding: 28px 48px 0;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
 }
