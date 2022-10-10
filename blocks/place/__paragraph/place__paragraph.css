@@ -1,5 +1,4 @@
 .place__paragraph {
-    font-family: 'Inter', "Arial ", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -9,6 +8,7 @@
     
     color: #FFFFFF;
 }
+
 .card__paragraph:nth-of-type(even) {
     margin-top: 26px;
 }

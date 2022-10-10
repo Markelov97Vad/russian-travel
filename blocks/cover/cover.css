@@ -1,11 +1,24 @@
 .cover {
-    background: url(../../../images/cover-trains.jpg);
+    /* background: url(../../../images/cover-trains.jpg) no-repeat;
     margin: 92px 48px 92px;
     display: flex;
+    background-size: contain;
     background-position: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    overflow: hidden;
+    position: relative; */
+    /* margin: 92px 48px 92px;
+    width: 100%;
+    color: #FFFFFF; */
 }
+
+.cover {
+  margin: 92px auto 92px;
+  padding: 0;
+  width: calc(100% - 96px);
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+

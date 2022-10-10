@@ -13,19 +13,63 @@
 } */
 
 .cover__background {
+  display: flex;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: 100% 100%;
+  /* object-fit: contain; */
+  background-position: center;
+  /* width: 100vw;
+  height: 100vh; */
+  max-width: 1184px;
+  min-height: 740px;
+  box-sizing: border-box;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.cover__background::before {
+  content: " ";
+  display: block;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 1s ease;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
+
+
+/* Главный вариант */
+/* .cover__background {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, .3);
-    background-size: cover;
+    background-color: rgba(42, 44, 47, .3);
+    background-size: 100% 100%;
     background-position: center;
     text-decoration: none;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
     align-items: center;
+    margin: 92px 48px 92px;
+    
+    color: #FFFFFF;
+    /* box-sizing: border-box; */
 
-}
+
 
 /* .cover__background::before {
     content: '';
