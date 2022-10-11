@@ -3,13 +3,9 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
     text-decoration: none;
     margin: 10px 0 0;
     
-
+    color: inherit;
 }
 
-.header__lang-link:hover {
-    text-decoration: underline;
-}

@@ -5,8 +5,5 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
-    /* or 106% */
-    
-    
-    color: #FFFFFF;
+    max-width: 460px;
 }

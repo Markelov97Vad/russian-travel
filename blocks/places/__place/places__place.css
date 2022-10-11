@@ -1,7 +1,10 @@
 .places__place {
     margin-bottom: 80px;
+    /* margin: 0 auto 92px;
+    padding: 0;
+    width: calc(100% - 296px); */
 }
 
 .places__place:last-child {
-    margin: 0;
+    margin-bottom: 0;
 }

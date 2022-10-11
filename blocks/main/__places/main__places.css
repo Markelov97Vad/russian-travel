@@ -1,0 +1,5 @@
+.main__places {
+    margin: 0 auto 92px;
+    padding: 0;
+    width: calc(100% - 296px);
+}
