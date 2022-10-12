@@ -1,13 +1,15 @@
 .root__main {
-    margin: 56px auto 92px;
+    margin: 0 auto 88px;
     padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .root__main {
     margin-top: 48px;
   }
-}
+} */
+
+
 /* @media screen and (max-width: 1024px) {
     .root__main {
         margin-top: 48px;

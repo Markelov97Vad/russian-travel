@@ -1,4 +1,11 @@
 .root__header {
-    margin: 0 auto;
-    padding: 28px 48px 0;
+  margin: 0 auto ;
+  padding: 28px 48px 0;
+}
+
+@media  screen and (max-width: 768px) {
+  .root__header {
+    margin: 0 auto 48px;
+    padding: 28px 24px 0;
+  }
 }

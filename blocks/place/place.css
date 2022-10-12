@@ -9,8 +9,15 @@
 }
 
 @media  screen and (max-width: 1024px) {
-    .place {
-      grid-template-columns: minmax(min-content, 440px);
-      gap: 48px 32px;
+  .place {
+    grid-template-columns: minmax(min-content, 440px);
+    gap: 48px 32px;
     }
+}
+
+@media  screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(min-content, 340px);
+    gap: 48px 28px;
+  }
 }

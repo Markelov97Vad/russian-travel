@@ -1,3 +1,9 @@
 .main__intro {
     margin: 0 auto 92px;
 }
+
+@media screen and (max-width: 768px) {
+   .main__intro {
+     margin-bottom: 88px;
+   }
+}

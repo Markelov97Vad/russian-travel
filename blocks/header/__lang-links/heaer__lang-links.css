@@ -10,3 +10,9 @@
     top: 46px;
     right: 48px;
 }
+
+@media  screen and (max-width: 768px) {
+    .header__lang-links {
+        right: 24px;
+    }
+  }

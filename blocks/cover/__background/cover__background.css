@@ -57,6 +57,11 @@
   }
 }
 
+@media  screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
 
 /* Главный вариант */
 /* .cover__background {
