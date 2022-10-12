@@ -1,4 +1,16 @@
 .root__main {
-    margin: 0 auto;
+    margin: 56px auto 92px;
     padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .root__main {
+    margin-top: 48px;
+  }
+}
+/* @media screen and (max-width: 1024px) {
+    .root__main {
+        margin-top: 48px;
+        width: calc(100% - 96px);
+    }
+} */

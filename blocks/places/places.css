@@ -1,4 +1,9 @@
 .places {
-    /* margin: 92px auto 0;
-    padding: 0 148px 0; */
+    width: calc(100% - 296px);
+}
+
+@media  screen and (max-width: 1024px) {
+    .places {
+        width: calc(100% - 2 * 48px);
+    }
 }

@@ -1,8 +1,16 @@
 .place {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
-    grid-template-areas:
-        "header link"
-        "img main";
-    gap: 48px 40px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-areas:
+  "header link"
+  "img main";
+  gap: 48px 40px;
+    
+}
+
+@media  screen and (max-width: 1024px) {
+    .place {
+      grid-template-columns: minmax(min-content, 440px);
+      gap: 48px 32px;
+    }
 }
