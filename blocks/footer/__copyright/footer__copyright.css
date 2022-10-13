@@ -4,8 +4,12 @@
     font-size: 14px;
     line-height: 114%;
     margin: 0;
-    /* identical to box height, or 114% */
-
 
     color: inherit;
+}
+
+@media screen and (max-width: 685px) {
+    .footer__copyright {
+        line-height: 14px;
+    }
 }

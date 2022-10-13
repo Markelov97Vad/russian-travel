@@ -15,4 +15,11 @@
     .header__lang-links {
         right: 24px;
     }
-  }
+}
+
+@media  screen and (max-width: 320px) {
+    .header__lang-links {
+        top: 30px;
+        right: 16px;
+    }
+}

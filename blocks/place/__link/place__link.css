@@ -2,11 +2,22 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 122%;
     margin-top: 12px;
-    /* identical to box height, or 122% */
-
+    align-self: self-start;
     text-decoration-line: underline;
 
-    color: #FFFFFF;
+    color: inherit;
 }
+
+.place__link:hover {
+    opacity: .8;
+}
+
+@media  screen and (max-width: 610px) {
+    .place__link {
+        min-width: 288px;
+        padding-left: 16px;
+        margin: 0 0 32px;
+    }
+  }

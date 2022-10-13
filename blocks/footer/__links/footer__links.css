@@ -6,3 +6,11 @@
     text-decoration: none;
     gap: 18px;
 }
+
+@media screen and (max-width: 685px) {
+    .footer__links {
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 46px;
+    }
+  }

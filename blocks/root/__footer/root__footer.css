@@ -7,3 +7,9 @@
     padding: 0 24px 24px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .root__footer {
+    padding: 0 16px 16px;
+  }
+}

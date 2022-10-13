@@ -3,12 +3,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
-    /* or 29px */
-    margin: 0 0 26px;
-    white-space: pre-line;
-    
-
+    margin: 0 auto 26px;
 }
+
 .place__paragraph:last-child {
     margin-bottom: 0;
 }
@@ -23,6 +20,27 @@
     .place__paragraph {
         margin-bottom: 25px;
         font-size: 16px;
-        line-height: 162%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .place__paragraph {
+        padding: 0 16px 0;
+        line-height: 161%;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .place__paragraph {
+        padding: 0 16px 0;
+        line-height: 161%;
+        margin-bottom: 25px;
+    }
+
+    .place__paragraph:last-child {
+        margin-bottom: 0;
+        line-height: 163%;
+        white-space: break-spaces;
     }
 }

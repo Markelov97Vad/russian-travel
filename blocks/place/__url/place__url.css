@@ -2,11 +2,16 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 100%;
     margin: 0;
-/* identical to box height, or 100% */
-
     letter-spacing: 2px;
 
     color: #AAAAAA;
 }
+
+@media  screen and (max-width: 610px) {
+    .place__url {
+        padding: 0 16px 0;
+        margin-bottom: 12px;
+    }
+  }

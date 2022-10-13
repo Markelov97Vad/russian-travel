@@ -1,9 +1,15 @@
 .main__intro {
-    margin: 0 auto 92px;
+  margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 768px) {
-   .main__intro {
-     margin-bottom: 88px;
-   }
+  .main__intro {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main__intro {
+    margin-bottom: 64px;
+  }
 }

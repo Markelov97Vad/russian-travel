@@ -1,9 +1,13 @@
 .place__img {
     grid-area: img;
-    /* min-width: 320px;
-    max-width: 460px; */
     width: 100%;
-    /* min-width: 320px; */
     max-width: 460px;
     object-fit: cover;
 }
+
+@media  screen and (max-width: 610px) {
+    .place__img {
+        margin-bottom: 32px;
+        max-width: 610px;
+    }
+  }

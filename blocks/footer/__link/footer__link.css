@@ -4,8 +4,17 @@
     font-size: 16px;
     line-height: 112%;
     text-decoration: none;
-    /* identical to box height, or 112% */
-
 
     color: inherit;
 }
+
+.footer__link:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 685px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+    }
+  }

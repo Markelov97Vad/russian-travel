@@ -17,6 +17,29 @@
     line-height: 46px;
     min-width: 340px;
     line-height: 110%;
+    white-space: break-spaces;
+  }
+}
+
+@media  screen and (max-width: 610px) {
+  .place__title {
+    /* font-size: 32px;
+    line-height: 35px; */
+    padding: 0 16px 0;
+    margin-bottom: 32px;
+    min-width: 288px;
+    white-space: normal;
+  }
+}
+
+@media  screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0 16px 0;
+    margin-bottom: 32px;
+    min-width: 288px;
+    white-space: normal;
   }
 }
 

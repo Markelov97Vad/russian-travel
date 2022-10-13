@@ -5,7 +5,18 @@
     line-height: 28px;
     text-decoration: none;
     margin: 10px 0 0;
-    
+
     color: inherit;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+}
+
+@media  screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
 
