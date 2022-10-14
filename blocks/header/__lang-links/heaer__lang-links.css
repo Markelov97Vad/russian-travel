@@ -7,17 +7,3 @@
     margin: 0;
     padding: 0;
 }
-
-@media  screen and (max-width: 768px) {
-    .header__lang-links {
-        right: 24px;
-    }
-}
-
-@media  screen and (max-width: 320px) {
-    .header__lang-links {
-        top: 30px;
-        right: 16px;
-    
-    }
-}
