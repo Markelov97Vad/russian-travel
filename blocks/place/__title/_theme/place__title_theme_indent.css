@@ -1,0 +1,11 @@
+@media  screen and (max-width: 768px) {
+  .place__title_theme_indent {
+    white-space: break-spaces;
+  }
+}
+
+@media  screen and (max-width: 610px) {
+  .place__title_theme_indent {
+    white-space: normal;
+  }
+}

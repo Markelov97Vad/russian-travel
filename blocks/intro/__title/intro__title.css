@@ -2,23 +2,21 @@
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
-    line-height: 58px;
-/* identical to box height, or 107% */
+    line-height: 107%;
     margin: 0 0 40px;
 
-    color: #FFFFFF;
 }
 
 @media  screen and (max-width: 768px) {
    .intro__title {
-    line-height: 91%;
+    line-height: 99%;
    }
 }
 
 @media  screen and (max-width: 414px) {
     .intro__title {
         font-size: 32px;
-        line-height: 35px;
+        line-height: 109%;
         padding-right: 50px;
     }
  }

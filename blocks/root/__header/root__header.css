@@ -11,12 +11,16 @@
 
 @media  screen and (max-width: 768px) {
   .root__header {
-    padding: 28px 24px 0;
+    padding-left: 24px;
+    padding-right: 24px;
+
   }
 }
 
 @media  screen and (max-width: 320px) {
   .root__header {
-    padding: 16px 16px 0;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

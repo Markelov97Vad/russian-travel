@@ -10,16 +10,11 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__paragraph {
-        white-space: normal;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .place__paragraph {
         margin-bottom: 25px;
         font-size: 16px;
+        line-height: 162%;
     }
 }
 
@@ -27,20 +22,17 @@
     .place__paragraph {
         padding: 0 16px 0;
         line-height: 161%;
-        margin-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 414px) {
     .place__paragraph {
-        padding: 0 16px 0;
-        line-height: 161%;
-        margin-bottom: 25px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .place__paragraph:last-child {
         margin-bottom: 0;
         line-height: 163%;
-        white-space: break-spaces;
     }
 }
