@@ -27,12 +27,10 @@
 
 @media screen and (max-width: 414px) {
     .place__paragraph {
-        padding-left: 16px;
-        padding-right: 16px;
+        line-height: 163%;
     }
 
     .place__paragraph:last-child {
         margin-bottom: 0;
-        line-height: 163%;
     }
 }
