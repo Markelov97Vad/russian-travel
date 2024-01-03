@@ -2,7 +2,11 @@
   "name": "russian-travel",
   "version": "1.0.0",
   "description": "Проект выполнен ввиде однострочного сайта, с использованием разных технологий. Которые были изучены в течении курса. Этот проект помогает закрепить и показыть усвоенный материал, а также опыт работы с Figma. Cайт о путешествиях по России, о её незабываемих природных богатствах, указаны различные направления, куда стоит отправиться, содержит ссылки на полезные ресурсы с дополнительной информацией о Карелии, озере Байкал, Алтае, Кольском полуострове и не только.",
+  "homepage": "https://markelov97vad.github.io/russian-travel/",
   "main": "gulpfile.js",
+  "scripts": {
+    "deploy": "npm run build && gh-pages -d dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Markelov97Vad/russian-travel.git"
@@ -12,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/Markelov97Vad/russian-travel/issues"
   },
-  "homepage": "https://github.com/Markelov97Vad/russian-travel#readme",
   "devDependencies": {
     "browser-sync": "^3.0.2",
     "del": "^6.0.0",

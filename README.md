@@ -6,11 +6,11 @@
 
 ### **Используемый Стек:**
 
-**HTML**
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 * Семантические теги
 
-**CSS**
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 * Flexbox
 * Grid-layout
@@ -20,6 +20,8 @@
 * Позиционирование блоков и элементов
 * Адаптивная верстка под размеры экранов 1280px, 1024px, 768px, 320px
 * БЭМ Nested
+
+![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)
 
 ----
 
