@@ -5,7 +5,8 @@
   "homepage": "https://markelov97vad.github.io/src/index.html",
   "main": "gulpfile.js",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d dist"
+    "dev": "gulp",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
